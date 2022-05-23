@@ -165,7 +165,7 @@ Sends every 10ms:
 * `H` - Unknown - higher when engine accelerating, cuts out when lifting
 
 
-ID 1F9 - Unknown
+ID 1F9 - Engine ECU
 ----------------
 
 When ignition goes from ACC to ON:
@@ -534,7 +534,7 @@ IGN ON:
     (A, B, C, D, E, F, G, H)
 
 
-* `A` - Sensor data - Temp?
+* `A` - Sensor data - Temp - Radiator Coolant - Appears to be arbitrary number 210 Degrees F = 128 (Fan on.)
     * Starts at ~60, slowly rises to ~125
 * `B` - Counts up from 0 to 255 (only when engine running)
     * Counts faster at higher RPMs
